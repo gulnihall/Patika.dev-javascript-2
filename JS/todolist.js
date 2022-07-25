@@ -38,20 +38,20 @@ function newElement(){
         
        
        //SONRADAN EKLENEN MADDELERİ SİLMEK İÇİN AYNI İŞLEMLERİN TEKRARI
-             liDOM.onclick = check;
+             liDOM.onclick = check
             
         let closeButton = document.createElement("span")
             closeButton.textContent = "\u00D7"
             closeButton.classList.add("close")
             closeButton.onclick = removeButton
             
-            liDOM.append(closeButton);
-            listDOM.append(liDOM);
+            liDOM.append(closeButton)
+            listDOM.append(liDOM)
             inputElement.value = ("")
             
     }
      else  {
-        $('.error').toast("show");
+        $('.error').toast("show")
     }
     
 }
